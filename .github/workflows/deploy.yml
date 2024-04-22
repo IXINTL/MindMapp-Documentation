@@ -20,11 +20,13 @@ jobs:
           fetch-depth: 0
       - uses: actions/setup-node@v4
         with:
-          node-version: 18
+          node-version: 20.3.0
           cache: yarn
 
       - name: Install dependencies
         run: yarn install --frozen-lockfile
+      - name: Install FontAwesome
+        run: npm install --save font-awesome
       - name: Build website
         run: yarn build
 
