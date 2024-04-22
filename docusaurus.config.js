@@ -23,6 +23,7 @@ const config = {
   organizationName: 'IXINTL', // Usually your GitHub org/user name.
   trailingSlash: false,
   projectName: 'MindMapp-Documentation', // Usually your repo name.
+  deploymentBranch: 'gh-pages',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
