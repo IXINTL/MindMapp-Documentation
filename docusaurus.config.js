@@ -84,16 +84,18 @@ const config = {
           // },
           // {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            href: 'https://github.com/IXINTL/MindMapp',
+            'aria-label': 'GitHub',
+            className: 'navbar__icon navbar__github',
             position: 'right',
+            html: '<i class="fa fa-github"></i>',
           },
         ],
       },
       footer: {
-        style: 'dark',
+        style: 'light',
         links: [
-          
+          /**Footer link not needed.*/
         ],
         copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
       },
