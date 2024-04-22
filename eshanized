@@ -16,7 +16,7 @@ if [[ -n $(git status -s) ]]; then
     git add .
 
     # Prompt user for commit message
-    read -p "Enter commit message: " COMMIT_MESSAGE
+    read -p "Commit message: " COMMIT_MESSAGE
 
     # Commit changes with a default message
     git commit -m "$COMMIT_MESSAGE"
