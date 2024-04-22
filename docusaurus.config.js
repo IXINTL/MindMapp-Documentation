@@ -76,13 +76,6 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          // {
-          //   type: 'docSidebar',
-          //   sidebarId: 'tutorialSidebar',
-          //   position: 'right',
-          //   label: 'Tutorial',
-          // },
-          // {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/IXINTL/MindMapp',
             'aria-label': 'GitHub',
